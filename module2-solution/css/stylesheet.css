@@ -7,7 +7,7 @@ h1 {margin-bottom: 15px; text-align: center;}
 div {background-color: #9c9c9c;
       margin: 10px}
 
-p {border: 2px solid black;
+p {border: 1px solid black;
   background-color: #00ffff;
   width: 30%;
   height: 22px;
@@ -25,11 +25,11 @@ p {border: 2px solid black;
 section {clear: right; padding: 20px}
 
 /* Simple Responsive Framework. */
-.row {width: 100%;}
+.row {width: 90%;}
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3 {float: left;border: 2px solid black;}
+  .col-lg-1, .col-lg-2, .col-lg-3 {float: left;border: 1px solid black;}
   .col-lg-1 {width: 33.33%;}
   .col-lg-2 {width: 66,66%;}
   .col-lg-3 {width: 100%;}
@@ -38,14 +38,14 @@ section {clear: right; padding: 20px}
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3 {float: left;border: 2px solid black;}
+  .col-md-1, .col-md-2, .col-md-3 {float: left;border: 1px solid black;}
   .col-md-1 {width: 50%;}
-  .col-md-2 {width: 50%;}
-  .col-md-3 {width: 100%; clear: left;}
+  .col-md-2 {width: 50%; }
+  .col-md-3 {width: 100%; clear: right;}
 }
-/********** Mediumcd devices only **********/
+/********** Small devices only **********/
 @media (max-width: 767px) {
-  .col-sd-1, .col-sd-2, .col-sd-3 {float: left;border: 2px solid black;}
+  .col-sd-1, .col-sd-2, .col-sd-3 {float: left;border: 1px solid black;}
   .col-sd-1 {width: 100%;}
   .col-sd-2 {width: 100%;}
   .col-sd-3 {width: 100%;}
